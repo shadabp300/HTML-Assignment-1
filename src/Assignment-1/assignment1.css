@@ -2,6 +2,22 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: auto;
+    border:0.5px solid gray;
+    background-color: rgb(220, 215, 215);
+    }
+    .row {
+        display:block;
+        width:90%;
+        height:300px;
+        margin:10px;
+    }
+    .column {
+        display:inline-block;
+        width:45%;
+        height:inherit;
+        margin:10px;
+        float:left;
+    }
+    
