@@ -1,7 +1,80 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container {
 width: 100%;
 height: 100%;
+border:2px solid black;
 }
+header {
+    width:100%;
+    border:1px solid black;
+    background-color:crimson;
+}
+header, img, form {
+    display:inline-block;
+}
+.logo {
+    padding-left: 15px;
+    padding-top: 4px;
+}
+form {
+    float:right;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+navbar, nav {
+    width:98.5%;
+    text-align: center;
+    margin: 10px;
+    border:1px solid black;
+
+
+}
+ ul {
+    
+    list-style:none;
+}
+nav ul li {
+    display:inline-block;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+a {
+    text-decoration: none;
+    color:inherit
+}
+.division {
+    width:100%;
+    border:1px solid black;
+    position: absolute;
+}
+.left, section, .right {
+  display:inline-block;
+  float:left;
+  /* width:30%; */
+  text-align:center;
+}
+.left, .right {
+   width: 25%; 
+}
+section {
+    width: 40%
+}
+.post-img {
+    width:150px;
+    height:100px;
+    margin: 7px 2px;
+}
+footer {
+    display:block;
+    position: absolute;
+   bottom: 0;
+    margin: ;
+    padding-top: ;
+}
+aside ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
