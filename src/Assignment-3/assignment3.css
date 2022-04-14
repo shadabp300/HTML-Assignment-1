@@ -11,18 +11,23 @@ height: 50%;
 background-color: #f2f2f2;
 }
 
+
 .first-left, .first-right {
-    width: 50%;
     display: inline-block;
-    text-align: center;
+ 
 }
-/* .first-left {
-    padding-left: 30px;
-} */
+.first-left {
+    margin-left: 25%;
+    width: 20%;
+    text-align: left;
+
+}
 
 .first-right {
     float: right;
-    padding-top: 40px;
+ margin-top: 70px;
+    width: 30%;
+    margin-right: 15%;
     
 }
 .second {
@@ -32,6 +37,10 @@ background-color: #f2f2f2;
     padding-top: 40px;
     
 }
+.second-top {
+    width: 30%;
+    margin-left: 35%;
+}
 .second-bottom {
     padding-top: 30px;
     background-color: #f2f2f2;
@@ -39,4 +48,8 @@ background-color: #f2f2f2;
  input {
      background-color: black;
      color: white;
+ }
+ .button {
+     margin-bottom: 20px;
+
  }
