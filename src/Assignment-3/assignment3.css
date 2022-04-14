@@ -1,7 +1,42 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container{
 width: 100%;
 height: 100%;
 }
+.first, .second {
+width: 100%;
+height: 50%;
+background-color: #f2f2f2;
+}
+
+.first-left, .first-right {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+/* .first-left {
+    padding-left: 30px;
+} */
+
+.first-right {
+    float: right;
+    padding-top: 40px;
+    
+}
+.second {
+    margin-top: 10px;
+    position: absolute;
+    text-align: center; 
+    padding-top: 40px;
+    
+}
+.second-bottom {
+    padding-top: 30px;
+    background-color: #f2f2f2;
+}
+ input {
+     background-color: black;
+     color: white;
+ }
